@@ -1,0 +1,24 @@
+{
+  "name": "alexbinary.rimraf",
+  "description": "Promisified version of rimraf 🙀",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/alexbinary/rimraf.git",
+  "author": "Alexandre Bintz <alexandre@bintz.io>",
+  "license": "MIT",
+  "scripts": {
+    "test": "istanbul cover _mocha",
+    "testw": "mocha -w"
+  },
+  "devDependencies": {
+    "alexbinary.file-exists": "https://github.com/alexbinary/file-exists.git",
+    "alexbinary.fs-sandbox": "https://github.com/alexbinary/fs-sandbox.git",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "alexbinary.promisify": "https://github.com/alexbinary/promisify.git",
+    "rimraf": "^2.5.4"
+  }
+}
