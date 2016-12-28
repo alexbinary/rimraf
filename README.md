@@ -9,12 +9,12 @@ Based on [rimraf](https://www.npmjs.com/package/rimraf) by [isaacs](https://www.
 
 ## Install
 
-Install with npm/yarn :
+Install using npm or yarn :
 
-```
-$ npm install https://github.com/alexbinary/rimraf.git
-
-$ yarn add https://github.com/alexbinary/rimraf.git
+```bash
+$ npm install @alexbinary/rimraf
+# or
+$ yarn add @alexbinary/rimraf
 ```
 
 ## Usage
