@@ -1,6 +1,6 @@
 # rimraf
 
-Promisified version of rimraf 🙀
+Simple rimraf with promise support 🎉
 
 ## Install
 

@@ -1,7 +1,7 @@
 {
   "name": "@alexbinary/rimraf",
   "version": "1.0.0",
-  "description": "Promisified version of rimraf 🙀",
+  "description": "Simple rimraf with promise support 🎉",
   "keywords": [
     "rm",
     "rimraf",
