@@ -1,24 +1,38 @@
 {
-  "name": "alexbinary.rimraf",
-  "description": "Promisified version of rimraf 🙀",
-  "version": "1.0.0",
+  "name": "@alexbinary/rimraf",
+  "version": "1.0.1",
+  "description": "Simple rimraf with promise support 🎉",
+  "keywords": [
+    "rm",
+    "rimraf",
+    "delete",
+    "remove",
+    "fs",
+    "file",
+    "directory"
+  ],
+  "homepage": "https://github.com/alexbinary/rimraf#readme",
+  "bugs": {
+    "url": "https://github.com/alexbinary/rimraf/issues",
+    "email": "alexandre@bintz.io"
+  },
+  "license": "MIT",
+  "author": "Alexandre Bintz <alexandre@bintz.io>",
   "main": "src/index.js",
   "repository": "https://github.com/alexbinary/rimraf.git",
-  "author": "Alexandre Bintz <alexandre@bintz.io>",
-  "license": "MIT",
   "scripts": {
     "test": "istanbul cover _mocha",
     "testw": "mocha -w"
   },
+  "dependencies": {
+    "@alexbinary/promisify": "^3.0.2",
+    "rimraf": "^2.5.4"
+  },
   "devDependencies": {
-    "alexbinary.file-exists": "https://github.com/alexbinary/file-exists.git",
     "alexbinary.fs-sandbox": "https://github.com/alexbinary/fs-sandbox.git",
     "chai": "^3.5.0",
+    "chai-fs": "^1.0.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0"
-  },
-  "dependencies": {
-    "alexbinary.promisify": "https://github.com/alexbinary/promisify.git",
-    "rimraf": "^2.5.4"
   }
 }
