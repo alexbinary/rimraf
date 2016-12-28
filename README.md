@@ -2,6 +2,9 @@
 
 Simple rimraf with promise support 🎉
 
+[![npm](https://img.shields.io/npm/v/@alexbinary/rimraf.svg)](https://www.npmjs.com/package/@alexbinary/rimraf)
+[![GitHub release](https://img.shields.io/github/release/alexbinary/rimraf.svg?label="github")](https://github.com/alexbinary/rimraf/releases/latest)
+
 Based on [rimraf](https://www.npmjs.com/package/rimraf) by [isaacs](https://www.npmjs.com/~isaacs)
 
 ## Install
