@@ -1,8 +1,9 @@
 
-let expect = require('chai').expect
+let chai = require('chai')
+let expect = chai.expect
+chai.use(require('chai-fs'))
 
 let fsSandbox = require('alexbinary.fs-sandbox')
-let fileexists = require('alexbinary.file-exists')
 
 let rimraf = require('./../src/index')
 
@@ -16,7 +17,7 @@ describe('rimraf', function () {
     // ## TEST
     rimraf(file.fullpath).then(() => {
       // ## Assert
-      expect(fileexists.sync(file.fullpath)).to.be.false
+      expect(file.fullpath).to.not.be.a.path()
       // ## Teardown
       fsSandbox.rmSync()
       // ## End
@@ -30,7 +31,7 @@ describe('rimraf', function () {
     rimraf(file.fullpath, (err) => {
       // ## Assert
       expect(err).to.be.null
-      expect(fileexists.sync(file.fullpath)).to.be.false
+      expect(file.fullpath).to.not.be.a.path()
       // ## Teardown
       fsSandbox.rmSync()
       // ## End
@@ -44,7 +45,7 @@ describe('rimraf', function () {
     // ## TEST
     rimraf.sync(file.fullpath)
     // ## Assert
-    expect(fileexists.sync(file.fullpath)).to.be.false
+    expect(file.fullpath).to.not.be.a.path()
     // ## Teardown
     fsSandbox.rmSync()
     // ## End

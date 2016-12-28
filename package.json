@@ -11,9 +11,9 @@
     "testw": "mocha -w"
   },
   "devDependencies": {
-    "alexbinary.file-exists": "https://github.com/alexbinary/file-exists.git",
     "alexbinary.fs-sandbox": "https://github.com/alexbinary/fs-sandbox.git",
     "chai": "^3.5.0",
+    "chai-fs": "^1.0.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0"
   },
