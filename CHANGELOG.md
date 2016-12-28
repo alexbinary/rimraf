@@ -8,3 +8,4 @@
 - use `@alexbinary/promisify` from NPM
 - clean package.json
 - clean readme
+- add callback & sync usage example in readme
