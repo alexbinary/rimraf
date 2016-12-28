@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@alexbinary/promisify@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@alexbinary/promisify/-/promisify-3.0.2.tgz#e0e34759061ac19910e53c68d990c71817bbce0c"
+
 abbrev@1, abbrev@1.0.x:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.0.9.tgz#91b4792588a7738c25f35dd6f63752a2f8776135"
