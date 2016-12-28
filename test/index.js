@@ -4,10 +4,9 @@ let expect = chai.expect
 chai.use(require('chai-fs'))
 
 let fsSandbox = require('alexbinary.fs-sandbox')
+fsSandbox.setRoot(__dirname)
 
 let rimraf = require('./../src/index')
-
-fsSandbox.setRoot(__dirname)
 
 describe('rimraf', function () {
   it('promise', function (done) {
