@@ -1,4 +1,5 @@
 # rimraf
+
 Promisified version of rimraf 🙀
 
 ## Install
