@@ -1,5 +1,5 @@
 {
-  "name": "alexbinary.rimraf",
+  "name": "@alexbinary/rimraf",
   "version": "1.0.0",
   "description": "Promisified version of rimraf 🙀",
   "keywords": [
