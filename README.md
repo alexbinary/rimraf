@@ -34,6 +34,23 @@ rimraf.sync('/foo/bar')
 console.log('file deleted')
 ```
 
+## Documentation
+
+```javascript
+let rimraf = require('@alexbinary/rimraf')
+```
+
+### rimraf(filepath[, callback])
+
+Removes the file or directory at `filepath`.
+If `filepath` is a directory then the directory is removed with all its content.
+
+This method supports both Promise and node callback style.
+
+### rimraf.sync(filepath)
+
+Synchronous version.
+
 ## Licence
 
 MIT

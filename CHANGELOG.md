@@ -9,3 +9,4 @@
 - clean package.json
 - clean readme
 - add callback & sync usage example in readme
+- add full API documentation
