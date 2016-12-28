@@ -2,6 +2,8 @@
 
 Simple rimraf with promise support 🎉
 
+Based on [rimraf](https://www.npmjs.com/package/rimraf) by [isaacs](https://www.npmjs.com/~isaacs)
+
 ## Install
 
 Install with npm/yarn :
