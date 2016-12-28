@@ -2,6 +2,8 @@
 
 ## upcoming release
 
+## v1.0.1
+
 - tests: use `chai-fs` instead of `@alexbinary/file-exists`
 - clean tests
 - add test for removing a non empty directory
