@@ -1,6 +1,6 @@
 {
   "name": "@alexbinary/rimraf",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple rimraf with promise support 🎉",
   "keywords": [
     "rm",
@@ -22,7 +22,8 @@
   "repository": "https://github.com/alexbinary/rimraf.git",
   "scripts": {
     "test": "istanbul cover _mocha",
-    "testw": "mocha -w"
+    "testw": "mocha -w",
+    "prepublish": "mocha"
   },
   "dependencies": {
     "@alexbinary/promisify": "^3.0.2",

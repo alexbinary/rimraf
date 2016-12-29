@@ -2,6 +2,13 @@
 
 ## upcoming release
 
+## v1.0.2
+
+- add David (DM) badge
+- configure Travis (CI) with automated deploy to NPM
+- add prepublish script
+- minor documentation update
+
 ## v1.0.1
 
 - tests: use `chai-fs` instead of `@alexbinary/file-exists`
